@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>KLIKNI NA TOTO TLACITKO</h1>
+<button onclick="myFunction()">Tlaciitko</button>
+
+<button type="button" onclick="displayDateAndTime()">Datum a čass</button>
+<p id="datum"></p>
+  
+<p id="demo">Klikni na tlačítko</p>
+
+<button type="button" onclick="document.getElementById('demo').innerHTML = 'vyhrál jsi, zadej všechna číslíčka na kreditní kartě tvých rodičů'">zde</button>
+
+
+<script>
+  
+  function displayDateAndTime() {
+    var currentDate = new Date();
+    document.getElementById('datum').innerHTML = currentDate;
+  }
+
+  function myFunction() {
+    alert("Csssss");
+  }
+
+  
+</script>
+
+  
+</body>
+</html>
